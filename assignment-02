@@ -1,0 +1,8 @@
+n=int(input('enter a num:'))
+rem=0
+i=0
+while n>0:
+    rem=n%10
+    i+=rem
+    n=n//10
+print(i)    
